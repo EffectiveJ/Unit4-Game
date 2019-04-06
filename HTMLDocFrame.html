@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="styleSheet" href='style.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--fisrt of all, create the divs with their classes and respective content
+        creating one for each character, one for the button, and one to wrep everthing in-->
+     <div class="game-info"> 
+         <h1>RPG Game</h1>
+         <p>Characters:</p>
+         <p> Your Character:</p>
+         <p>Enemies:</p>
+         <p>Defender:</p>
+     </div>
+    <div class="wrapper">
+        <div class="character1" id="char1"> Name <br> HP: <br> Attack Power <br> Counter Attack Power <br></div>
+        <div class="character2" id="char2"> Name <br> HP: <br> Attack Power <br> Counter Attack Power <br></div>
+        <div class="character3" id="char3"> Name <br> HP: <br> Attack Power <br> Counter Attack Power <br></div>
+        <div class="character4" id="char4"> Name <br> HP: <br> Attack Power <br> Counter Attack Power <br></div>
+        <div id="attackButton">Attack</div>
+        <!--create a button the player can click the actually causes 
+        damage to the enemy characters -->
+    </div>
+    <div class= 'reset-button'>Reset</div>
+    <!--aftter that, create-->
+    <script>
+
+        $(document).ready(function () {
+
+            // set the variables//
+
+            var healthPoints = ""
+            attackPower = ""
+            counterAttackPower = ""
+
+
+            // Create an "on click" function for every character div;
+            // That way, the player can choose one of the 4 characters to play as//
+
+            $("#character1, #character2, #character3, #chararcter4").on("click", function () {
+
+
+            });
+
+          // create a function that moves the selected character to the "your character" position//
+    
+
+          // give the attack button a function that makes it work//
+             $("#attackButton").on("click", function(){
+              // fiil this out......but with what?? //
+             })
+
+          // careate anothe function that decrements the enemy's HP every time the player clicks on it//
+
+         
+          // After every attack, a function or loop should increment the player's HP by doubling it//
+
+
+          // make the attacker's img move up towards the deffender(and then back down again) every time an attack is performed//
+        
+
+          // make every character (including the player's choice) disappear after it's HP ha sbeen reduced to 0 or lower//
+
+
+          // animate the following: the divs' opacity once the characters die, the movement during attacks, the characters moving to the defender and attacker positions//
+
+        });
+
+
+
+
+
+    </script>
+</body>
+
+</html>
