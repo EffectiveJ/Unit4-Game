@@ -6,40 +6,38 @@ $(document).ready(function () {
             name: "Naruto Uzumaki",
             health: 120,
             attack: 12,
-            imageUrl: "",
+            imageUrl: "AnimeX_673432.jpeg",
             enemyAttackBack: 15
         },
         "Sasuke Uchiha": {
             name: "Sasuke Uchiha",
             health: 100,
             attack: 13,
-            imageUrl: "",
+            imageUrl: "AnimeX_606239.jpeg",
             enemyAttackBack: 10
         },
         "Sakura Haruno": {
             name: "Sakura Haruno",
             health: 50,
             attack: 5,
-            imageUrl: "",
+            imageUrl: "AnimeX_644141.jpeg",
             enemyAttackBack: 5
         },
         "Kakashi Hatake": {
             name: "Kakashi Hatake",
             health: 175,
             attack: 20,
-            imageUrl: "",
+            imageUrl: "AnimeX_221968.jpeg",
             enemyAttackBack: 20
         },
         "Madara Uchiha": {
             name: "Madara Uchiha",
             health: 180,
             attack: 25,
-            imageUrl: "",
+            imageUrl: "AnimeX_665330.jpeg",
             enemyAttackBack: 25
         }
     };
-
-
 
 
     var attacker;
