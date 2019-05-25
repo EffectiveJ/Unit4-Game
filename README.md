@@ -1,2 +1,2 @@
 # Unit4-Game
-A colossally failed attempt  at an RPG game .
+Ready?? Fight!!....Clash against other Ninja in this turn-based fight RPG Game inspired by the hit anime Naruto.
